@@ -3,20 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro p, u, i
+		inteiro pv, uv, i
 		escreva("Digite o primeiro valor: ")
-		leia(p)
+		leia(pv)
 		escreva("Digite o último valor: ")
-		leia(u)
+		leia(uv)
 		escreva("Digite o incremento ou decremento: ")
 		leia(i)
 
-		enquanto (p <= u){
-			escreva(p+ " ")
-			p = p + i
-		}enquanto (p >= u){
-			escreva(p+ " ")
-			p = p - i
+		enquanto (pv <= uv){
+			escreva(pv+ " ")
+			pv = pv + i
+		}enquanto (pv >= uv){
+			escreva(pv+ " ")
+			pv = pv - i
 		}
 		escreva("Acabou!")
 	}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 284; 
+ * @POSICAO-CURSOR = 327; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
